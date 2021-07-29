@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS student;
+CREATE TABLE student (
+  idStudent VARCHAR(10) NOT NULL,
+  nameSV VARCHAR(100) NOT NULL,
+  phone VARCHAR(10) NOT NULL,
+  major VARCHAR(20) NOT NULL
+);
